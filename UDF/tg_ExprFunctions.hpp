@@ -369,7 +369,7 @@ namespace UDIMPL {
   }
   */
   
-  inline float tg_GetDistance(float lat1, float lng1, float lat2, float lng2) {
+  inline float GetDistance(float lat1, float lng1, float lat2, float lng2) {
     float a;
     float b;
     float radLat1 = tg::rad(lat1);
